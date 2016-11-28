@@ -3,7 +3,9 @@
 ws-net-control is client-server project for controlling devices over network
 
 It's based on:
+
 	* [tasker-server](https://github.com/nemanjan00/tasker-server)
+
 	* [tasker-client](https://github.com/nemanjan00/tasker-client)
 
 ## API
@@ -30,3 +32,9 @@ Response example:
 	"status":"ok", //event sent
 }
 ```
+
+## Contributors
+
+[Uros Spasojevic] (https://github.com/uspasojevic96) [uspasojevic96@gmail.com] (uspasojevic96@gmail.com)
+
+[Nemanja Nedeljkovic] (https://github.com/nemanjan00) [nemanjan00@gmail.com] (nemanjan00@gmail.com)
