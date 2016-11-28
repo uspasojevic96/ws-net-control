@@ -1,0 +1,22 @@
+{
+  "name": "ws-net-control-server",
+  "version": "1.0.0",
+  "description": "server for device control over websockets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "websockets",
+    "control",
+    "device",
+    "server"
+  ],
+  "author": "Uros Spasojevic",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-ws": "^2.0.0"
+  }
+}
