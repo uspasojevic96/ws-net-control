@@ -1,5 +1,8 @@
 # ws-net-control
 
+### server
+[![Dependency Status](https://www.versioneye.com/user/projects/583c5313d2fd57003fdfbe6f/badge.svg?style=flat)]
+
 ws-net-control is client-server project for controlling devices over network
 
 It's based on:
