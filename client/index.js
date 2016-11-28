@@ -13,7 +13,7 @@ var handler = {
 			opts = {};
 		}
 
-		handler.key = opts.KEYS || process.env.KEYS 'laptop';
+		handler.key = opts.KEY || process.env.KEY || 'laptop';
 		handler.gate = opts.GATE || process.env.GATE || 'ws://localhost:3000/gate';
 
 		handler.connect();
@@ -64,6 +64,7 @@ var handler = {
 							message: "unsubscribe",
 							key: handler.key
 						}));
+						process.exit();
 						}
 						catch(e) {
 							console.log(e);

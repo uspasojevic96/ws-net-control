@@ -29,6 +29,8 @@ app.ws('/gate', function(ws, req) {
 			if(subscriptions[msg.key] == undefined) {
 				subscriptions[msg.key] = ws;
 				keys = Object.keys(subscriptions);
+				subscriptions[msg.key].send(JSON.stringify({action: "unsubscribe"}));
+				console.log("added and sent");
 			}
 		}
 
@@ -37,6 +39,7 @@ app.ws('/gate', function(ws, req) {
 				subscriptions[msg.key].close();
 				delete subscriptions[msg.key];
 				keys = Object.keys(subscriptions);
+				console.log("deleted");
 			}
 		}
 	});
@@ -45,7 +48,7 @@ app.ws('/gate', function(ws, req) {
 // Gate for Tasker
 
 app.post('/', function (req, res) {
-	var keys = req.body.key.split("|");
+	var key = req.body.key;
 
 	var sentTo = [];
 
