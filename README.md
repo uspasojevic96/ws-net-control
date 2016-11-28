@@ -35,6 +35,6 @@ Response example:
 
 ## Contributors
 
-[Uros Spasojevic] (https://github.com/uspasojevic96) [uspasojevic96@gmail.com] (uspasojevic96@gmail.com)
+[Uros Spasojevic] (https://github.com/uspasojevic96) - [uspasojevic96@gmail.com] (uspasojevic96@gmail.com)
 
-[Nemanja Nedeljkovic] (https://github.com/nemanjan00) [nemanjan00@gmail.com] (nemanjan00@gmail.com)
+[Nemanja Nedeljkovic] (https://github.com/nemanjan00) - [nemanjan00@gmail.com] (nemanjan00@gmail.com)
